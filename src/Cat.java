@@ -4,7 +4,7 @@
  * @author Kkkrran
  * @version 1.0
  */
-public class Cat extends Animal{
+public class Cat extends Animal {
     public Cat(String name, int age, String sex, double price) {
         super(name, age, sex, 200);
     }

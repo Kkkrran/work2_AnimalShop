@@ -4,11 +4,12 @@
  * @author Kkkrran
  * @version 1.0
  */
-public class Mouse extends Animal{
+public class Mouse extends Animal {
     protected double weight;
-    public Mouse(String name, int age, String sex, double price,double weight) {
+
+    public Mouse(String name, int age, String sex, double price, double weight) {
         super(name, age, sex, 20);
-        this.weight=weight;
+        this.weight = weight;
     }
 
     @Override

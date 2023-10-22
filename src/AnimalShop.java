@@ -6,7 +6,8 @@
  */
 public interface AnimalShop {
     void buyIn(Animal animalIn);
-    void customerReception(Customer c,String typeOfAnimal);
+
+    void customerReception(Customer c, String typeOfAnimal);
 
     void close();
 }

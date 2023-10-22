@@ -4,8 +4,8 @@
  * @author Kkkrran
  * @version 1.0
  */
-public class InsufficientBalanceException extends RuntimeException{
-    public InsufficientBalanceException(String message){
+public class InsufficientBalanceException extends RuntimeException {
+    public InsufficientBalanceException(String message) {
         super(message);
     }
 }

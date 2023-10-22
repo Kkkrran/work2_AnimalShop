@@ -4,8 +4,8 @@
  * @author Kkkrran
  * @version 1.0
  */
-public class AnimalNotFoundException extends RuntimeException{
-    public AnimalNotFoundException(String message){
+public class AnimalNotFoundException extends RuntimeException {
+    public AnimalNotFoundException(String message) {
         super(message);
     }
 }
